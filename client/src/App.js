@@ -1,8 +1,5 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import Home from "./components/pages/Home";
-import Sidebar from "./components/pages/SideBar";
+import React from "react";
+import Main from "./components/main";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 function App() {
