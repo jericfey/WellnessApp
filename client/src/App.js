@@ -1,20 +1,18 @@
-import React from "react";
+import React  from "react";
 
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import MainSidebar from "./components/pages/SideBar";
-import Articles from "./components/pages/articles";
+import MainSidebar from "./components/SideBar";
+import Team from "./pages/Team";
 import "./index.css";
+
 function App() {
   return (
     <Router>
       <MainSidebar />
-      <Home />
-      <Team />
-      <Articles />
+      <Route exact path='/' component={Home} />
+      <Route exact path='/team' component={Team} />
     </Router>
-
   );
 }
 export default App;
-
