@@ -1,14 +1,19 @@
 import React from "react";
 import Team from "./pages/Team"
-import "./App.css";
-
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import MainSidebar from "./components/pages/SideBar";
+import Articles from "./components/pages/articles";
+import "./index.css";
 function App() {
   return (
-    <div className="App">
-     <Team />
-    </div>
+    <Router>
+      <MainSidebar />
+      <Home />
+      <Team />
+      <Articles />
+    </Router>
+
   );
 }
-
-
 export default App;
