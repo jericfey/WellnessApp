@@ -1,4 +1,5 @@
 import React from "react";
+
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import MainSidebar from "./components/pages/SideBar";
@@ -9,9 +10,11 @@ function App() {
     <Router>
       <MainSidebar />
       <Home />
+      <Team />
       <Articles />
     </Router>
+
   );
 }
-
 export default App;
+
