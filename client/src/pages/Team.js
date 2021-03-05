@@ -1,8 +1,8 @@
 import React from "react";
 import Wrapper from "../components/Wrapper/Wrapper";
-import TeamProfiles from "../components/TeamProfiles";
-import Container from "../components/Container";
-import Footer from "../components/Footer";
+import TeamProfiles from "../components/TeamProfiles/TeamProfiles";
+import Container from "../components/Container/Container";
+import Footer from "../components/Footer/Footer";
 
 function Team() {
   return (

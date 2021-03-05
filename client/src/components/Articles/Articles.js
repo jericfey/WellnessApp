@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Header } from "semantic-ui-react";
+import "./articles.css";
 
 const ContainerExampleText = () => (
   <Container textAlign="left">

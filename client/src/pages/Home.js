@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, Sidebar } from "semantic-ui-react";
-import ContainerExampleText from "../components/articles";
+import ContainerExampleText from "../components/Articles/Articles";
 
 function HomeHeader() {
   return (
