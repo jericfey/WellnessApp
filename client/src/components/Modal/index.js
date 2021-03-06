@@ -18,7 +18,7 @@ function Dividerform() {
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
       open={open}
-      trigger={<Menu.Item>Login/Signup</Menu.Item>}
+      trigger={<Button>Login/Signup</Button>}
     >
       <Segment placeholder>
         <Grid columns={2} relaxed="very" stackable>
