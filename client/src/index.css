@@ -6,7 +6,7 @@ body {
   font-family: sans-serif;
 }
 
-.login {
+.login2 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -15,6 +15,29 @@ body {
   margin-bottom: 10%;
 }
 
-.header {
-  font-family: "Merriweather", serif;
+.healtharticles {
+  position: absolute;
+  right: 2%;
+  font-size: small;
+}
+
+.snippet {
+  position: absolute;
+  left: 2%;
+  width: 2px;
+  font-size: smaller;
+  margin-top: 40px;
+}
+.logo3 {
+  background-color: white;
+}
+
+.title {
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: "Crimson Text", serif;
 }
