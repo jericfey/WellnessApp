@@ -7,6 +7,7 @@ import {
   Button,
 } from "semantic-ui-react";
 import "./Navbar.css";
+import Modal from "../Modal/index";
 
 function MainNav(props) {
   const [hideFixedMenu, setHideFixedMenu] = useState(false);
@@ -18,8 +19,9 @@ function MainNav(props) {
       onBottomPassed={showFixedMenu}
       onBottomPassedReverse={hideFixedMenu}
     >
-      <Segment inverted textAlign="center" vertical className="navynav">
+      <Segment inverted textAlign="center" vertical>
         <Menu
+          className="navynav"
           fixed={fixed ? "top" : null}
           inverted={!fixed}
           pointing={!fixed}
@@ -33,17 +35,7 @@ function MainNav(props) {
             <Menu.Item as="a">The Team</Menu.Item>
             <Menu.Item as="a">Contact Us</Menu.Item>
             <Menu.Item position="right">
-              <Button as="a" inverted={!fixed}>
-                Log in
-              </Button>
-              <Button
-                as="a"
-                inverted={!fixed}
-                primary={fixed}
-                style={{ marginLeft: "0.5em" }}
-              >
-                Sign Up
-              </Button>
+              <Modal />
             </Menu.Item>
           </Container>
         </Menu>

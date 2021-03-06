@@ -26,7 +26,8 @@ body {
   left: 2%;
   width: 2px;
   font-size: smaller;
-  margin-top: 40px;
+  margin-top: 60px;
+  font-size: large;
 }
 .logo3 {
   background-color: white;
@@ -40,4 +41,8 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Crimson Text", serif;
+}
+
+.slogan {
+  margin-top: 50%;
 }
