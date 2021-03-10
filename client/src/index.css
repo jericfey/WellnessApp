@@ -55,3 +55,12 @@ body {
 .home {
   background-image: url("./assets//background.png");
 }
+
+i {
+  float: right;
+}
+
+.ui .cards {
+  margin: 10px;
+}
+

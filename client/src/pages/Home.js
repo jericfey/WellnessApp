@@ -1,7 +1,7 @@
 import React from "react";
 import { Header, Container, Segment, Image } from "semantic-ui-react";
 import logo from "../assets/Logo2.png";
-import Modal from "../components/Modal";
+import Modal from "../components/Modal/login";
 import Zoom from "react-reveal/Zoom";
 import "../index.css";
 
