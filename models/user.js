@@ -21,6 +21,10 @@ const userSchema = new Schema({
   email: { type: String, required: true },
   password: { type: String, required: true },
   created: { type: Date, default: Date.now },
+  goalweight: {
+    type: Number,
+    required: false,
+  },
 });
 
 const User = mongoose.model("User", userSchema);
