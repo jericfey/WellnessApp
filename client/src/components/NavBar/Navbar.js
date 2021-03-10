@@ -34,9 +34,7 @@ function MainNav(props) {
             </Menu.Item>
             <Menu.Item as="a">The Team</Menu.Item>
             <Menu.Item as="a">Contact Us</Menu.Item>
-            <Menu.Item position="right">
-              <Modal />
-            </Menu.Item>
+            <Menu.Item position="right"></Menu.Item>
           </Container>
         </Menu>
       </Segment>

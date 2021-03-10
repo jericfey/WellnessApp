@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url("./assets//background.png");
 }
 
 .login2 {
@@ -19,20 +20,18 @@ body {
   position: absolute;
   right: 2%;
   font-size: small;
+  margin-top: 50px;
 }
 
 .snippet {
   position: absolute;
   left: 2%;
-  width: 2px;
-  font-size: smaller;
-  margin-top: 60px;
-  font-size: large;
+  font-size: small;
+  margin-top: 50px;
 }
-.logo3 {
-  background-color: white;
+.logo {
+  margin-bottom: -10%;
 }
-
 .title {
   position: absolute;
   top: 0.5em;
@@ -45,4 +44,14 @@ body {
 
 .slogan {
   margin-top: 50%;
+  margin-bottom: 50;
+}
+
+.test {
+  background-color: white;
+  border-radius: 25px;
+}
+
+.home {
+  background-image: url("./assets//background.png");
 }
