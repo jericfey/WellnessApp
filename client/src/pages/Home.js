@@ -13,7 +13,7 @@ function Home() {
           <img
             src={logo}
             alt="logo"
-            style={{ heigt: "100%", padding: "3em 5em" }}
+            style={{ height: "100%", padding: "3em 5em" }}
             className="logo"
           />
           <Header
@@ -21,7 +21,7 @@ function Home() {
             textAlign="center"
             className="slogan"
             size="huge"
-            style={{ color: "white" }}
+            style={{ color: "black" }}
           >
             Your health, starts with YOU.
           </Header>
