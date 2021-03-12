@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
-  background-image: url("./assets//background.png");
+}
+
+.home {
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  top: -15;
+  height: 100vh;
+  justify-content: center;
 }
 
 .login2 {
@@ -15,31 +20,20 @@ body {
   color: white;
   margin-bottom: 10%;
 }
-
-.healtharticles {
-  position: absolute;
-  right: 2%;
-  font-size: small;
-  margin-top: 50px;
+.todo {
+  margin-top: 5%;
 }
 
-.snippet {
-  position: absolute;
-  left: 2%;
-  font-size: small;
-  margin-top: 50px;
-}
 .logo {
-  margin-bottom: -10%;
+  margin-bottom: -5%;
+  border-radius: 25px;
 }
-.title {
+
+.cookie {
   position: absolute;
-  top: 0.5em;
-  left: 0;
-  width: 100%;
-  margin: 0;
-  text-align: center;
-  font-family: "Crimson Text", serif;
+  left: 17%;
+  width: 65%;
+  background-color: white;
 }
 
 .slogan {
@@ -49,9 +43,4 @@ body {
 
 .test {
   background-color: white;
-  border-radius: 25px;
-}
-
-.home {
-  background-image: url("./assets//background.png");
 }

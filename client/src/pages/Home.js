@@ -1,7 +1,7 @@
 import React from "react";
 import { Header, Container, Segment, Image } from "semantic-ui-react";
 import logo from "../assets/Logo2.png";
-import Modal from "../components/Modal";
+import Modal from "../components/Modal/login";
 import Zoom from "react-reveal/Zoom";
 import "../index.css";
 
@@ -13,7 +13,7 @@ function Home() {
           <img
             src={logo}
             alt="logo"
-            style={{ heigt: "100%", padding: "3em 5em" }}
+            style={{ height: "100%", padding: "3em 5em" }}
             className="logo"
           />
           <Header
@@ -21,7 +21,7 @@ function Home() {
             textAlign="center"
             className="slogan"
             size="huge"
-            style={{ color: "white" }}
+            style={{ color: "black" }}
           >
             Your health, starts with YOU.
           </Header>
