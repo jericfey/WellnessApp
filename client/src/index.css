@@ -44,3 +44,12 @@ body {
 .test {
   background-color: white;
 }
+
+i {
+  float: right;
+}
+
+.ui .cards {
+  margin: 10px;
+}
+

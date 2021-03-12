@@ -1,44 +1,36 @@
 import React from "react";
-import Draggable, {handleStart, handleDrag, handleStop}from "react-draggable";
-import { Card, Image } from "semantic-ui-react";
+import { Card, Icon, Container } from "semantic-ui-react";
 
 function TopCards() {
   return (
-    <Draggable
-      axis='x'
-      handle='.handle'
-      defaultPosition={{ x: 0, y: 0 }}
-      position={null}
-      grid={[25, 25]}
-      scale={1}
-      onStart={handleStart}
-      onDrag={handleDrag}
-      onStop={handleStop}
-    >
+    <Container>
       <Card.Group>
         <Card>
           <Card.Content>
-            <Image floated='right' src='' />
+            <Icon name='weight' size='huge' inverted color='grey' />
             <Card.Header>Current Weight</Card.Header>
+            {/* the current weight will actually be data pulled from the user */}
             <Card.Meta>Weight(lbs)</Card.Meta>
           </Card.Content>
         </Card>
         <Card>
           <Card.Content>
-            <Image floated='right' src='' />
+            <Icon name='trophy' size='huge' inverted color='grey' />
             <Card.Header>Ideal Weight</Card.Header>
+            {/* the ideal weight will actually be data pulled from the user */}
             <Card.Meta>Weight(lbs)</Card.Meta>
           </Card.Content>
         </Card>
         <Card>
           <Card.Content>
-            <Image floated='right' src='' />
+            <Icon name='food' size='huge' inverted color='grey' />
             <Card.Header>Calorie Intake</Card.Header>
-            <Card.Meta>Weight(lbs)</Card.Meta>
+            {/* the calorie intake will actually be data pulled from the user */}
+            <Card.Meta>Calories</Card.Meta>
           </Card.Content>
         </Card>
       </Card.Group>
-    </Draggable>
+    </Container>
   );
 }
 
