@@ -4,7 +4,7 @@
 
 The Wellness Application will function as a source of information regarding the user's water in-take, exercise activities, meal tracking, medication tracking, as well as event reminder. Users will need to authenticate and log into the application to get their data displayed in dashboard format. They will be able to create events and set reminders as search OpenFDA API for known medication names to return possible effects.
 
-![](./client/public/frontend/png)
+![](frontEnd.png)
 
 ## Authors
 
@@ -38,9 +38,13 @@ https://follaine.herokuapp.com/
 
 -[GoogleAPI](https://developers.google.com) - allows communication with google services
 
+-[Calendar](https://www.npmjs.com/package/react-calendar)
+
+-[Analytics](https://www.npmjs.com/package/analytics)
+
 ## Data Flow and Project Wire Frames
 
-![](./client/public/wireframe)
+![](wireFrame.png)
 
 ## Acknowledgment
 
