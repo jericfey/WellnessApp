@@ -40,3 +40,10 @@ body {
 .todolo {
   background-color: cornflowerblue;
 }
+i {
+  float: right;
+}
+
+.ui .cards {
+  margin: 10px;
+}

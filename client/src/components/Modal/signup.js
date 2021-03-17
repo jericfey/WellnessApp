@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button, Checkbox, Form, Header } from "semantic-ui-react";
 
@@ -24,5 +25,6 @@ const SignupForm = () => (
     <Button content="Signup" primary />
   </Form>
 );
+
 
 export default SignupForm;
