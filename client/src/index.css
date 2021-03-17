@@ -5,9 +5,8 @@ body {
 }
 
 .home {
-  background-image: url("./assets/background.jpg");
+  background-image: url("./assets/background.jpeg");
   background-size: cover;
-  top: -15;
   height: 100vh;
   justify-content: center;
 }
@@ -29,13 +28,6 @@ body {
   border-radius: 25px;
 }
 
-.cookie {
-  position: absolute;
-  left: 17%;
-  width: 65%;
-  background-color: white;
-}
-
 .slogan {
   margin-top: 50%;
   margin-bottom: 50;
@@ -43,4 +35,8 @@ body {
 
 .test {
   background-color: white;
+}
+
+.todolo {
+  background-color: cornflowerblue;
 }

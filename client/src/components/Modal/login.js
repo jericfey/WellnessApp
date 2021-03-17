@@ -23,7 +23,7 @@ function Dividerform() {
       <Segment placeholder className="cookie">
         <Grid columns={2} relaxed="very" stackable className="test">
           <Grid.Column>
-            <Form style={{ padding: "3em 5em" }}>
+            <Form>
               <Header textAlign="center">Login</Header>
               <Form.Input
                 icon="mail"

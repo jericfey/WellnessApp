@@ -12,6 +12,8 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Define API routes here
+//Budget stuff:
+app.use(require("./routes/api/weight"));
 
 // Send every other request to the React app
 // Define any API routes before this runs
